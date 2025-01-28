@@ -1,4 +1,4 @@
-This repo contains all of my REAPER scripts. 
+This repo contains all of my REAPER scripts, organised into folders so you can find them easier.
 
 I write these scripts as and when I find myself wanting a certain function within REAPER. If you have any suggestions find me at the social links below and I'll add it to my list and see if I can put something together.
 
