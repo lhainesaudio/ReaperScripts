@@ -6,6 +6,8 @@
  * Email: lhainesaudio@gmail.com
  * Repository URL: https://github.com/lhainesaudio/ReaperScripts
  * Licence: GPL v3
+ * REAPER Version: v7.0
+ * Script Version: v1.0
  
  CREDITS
  * Special Thanks To: X-Raym
@@ -14,6 +16,12 @@
 
 Thanks so much for using my script! 
 If you need support please send me an email, which you can find above.
+--]]
+
+--[[
+ * Changelog:
+ * v1.0 (2016-01-29)
+	+ Initial Release
 --]]
 
 -- FUNCTIONS ----------------------------------------------------
