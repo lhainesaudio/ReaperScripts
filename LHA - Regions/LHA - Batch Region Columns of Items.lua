@@ -197,12 +197,11 @@ function InsertGroupInfos()
 
 end -- InsertGroupInfos()
 
-
 function CreateRegionsFromGroups(region_name)
   
   local increment = 1
   
-  for i, group in pairs(groups) do  -- Iterate through groups
+  for i,group in pairs(groups) do  -- Iterate through groups
         
     region_pos, region_end = group.min_pos, group.max_end
         
@@ -223,7 +222,7 @@ function main()
 
   local desired_name = GetDesiredName()
   
-  if desired_name ~= false then
+  if desired_name ~= nil then
   
     GroupItems()
     GetGroupsFromSelectedItems()
@@ -237,9 +236,6 @@ function Init()
   
   count_sel_items = reaper.CountSelectedMediaItems(0)
   count_sel_tracks = reaper.CountSelectedTracks(0)
-  
-  createTrackAtTop =  reaper.NamedCommandLookup("_SWS_CREATETRK1")
-  selectItemsOnTrack = reaper.NamedCommandLookup("__SWS_TOGITEMSEL")
   
   if count_sel_items > 1 then
   
