@@ -21,7 +21,7 @@ If you need support please send me an email, which you can find above.
 --[[
  * Changelog:
  * v1.0 (2016-01-29)
-	+ Initial Release
+  + Initial Release
 --]]
 
 -- FUNCTIONS ----------------------------------------------------
