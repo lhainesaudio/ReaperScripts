@@ -9,6 +9,7 @@
  CREDITS
  * Special Thanks To: X-Raym
  * X-Raym Website: https://www.extremraym.com/
+ * X-Raym Repo URL: https://github.com/X-Raym/REAPER-ReaScripts
 --]]
 
 -- FUNCTIONS ----------------------------------------------------
