@@ -40,7 +40,6 @@ function GetDesiredName()
   else
     return null
   end
-
 end
 
 -- From Function in X-Raym (Group Items according to their order in selection per track.lua)
@@ -142,13 +141,9 @@ function GetGroupsFromSelectedItems()
           groups[group].item = item
           groups[group].pos = item_pos
         end
-
       end -- If group doesn't exist
-
     end -- END IF GROUP (no else)
-
   end -- END LOOP sel items
-
 end -- End of KeepSelOnlyFirstItemInGroups()
 
 -- Insert infos about groups in the groups table
@@ -204,9 +199,7 @@ function InsertGroupInfos()
       end
 
     end -- if groups
-
   end -- if items
-
 end -- InsertGroupInfos()
 
 function CreateRegionsFromGroups(region_name)
