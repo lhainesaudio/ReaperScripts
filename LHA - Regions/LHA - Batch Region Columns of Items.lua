@@ -15,10 +15,10 @@
 function GetDesiredName()
 
   local region_name_entered = ""
-  local b_valid_name_entered, entered_name_value = reaper.GetUserInputs(region_name_entered, 1, "Enter region name:, extrawidth - 500", "")
+  local b_valid_name_entered, entered_name_value = reaper.GetUserInputs(region_name_entered, 1, "Enter region name:, extrawidth - 500", "") -- Get Desired Name of Regions
 
   if entered_name_value == '' then
-    reaper.ShowConsoleMsg("LHA Batch Region Items - Please input a name")
+    reaper.ShowConsoleMsg("LHA Batch Region Items - Please input a name")  -- Show error if input is empty
     return null
   end
   
@@ -130,7 +130,7 @@ function GetGroupsFromSelectedItems()
           groups[group].pos = item_pos
         end
 
-      end -- If group don't exist
+      end -- If group doesn't exist
 
     end -- END IF GROUP (no else)
 
@@ -201,7 +201,7 @@ function CreateRegionsFromGroups(region_name)
   
   local increment = 1
   
-  for i, group in pairs(groups) do
+  for i, group in pairs(groups) do  -- Iterate through groups
         
     region_pos, region_end = group.min_pos, group.max_end
         
@@ -211,7 +211,7 @@ function CreateRegionsFromGroups(region_name)
       formatted_name = string.format("%s_%i", region_name, increment) -- format name with increment
     end
        
-    reaper.AddProjectMarker2(0, true, region_pos, region_end, formatted_name, count_sel_items, 0)
+    reaper.AddProjectMarker2(0, true, region_pos, region_end, formatted_name, count_sel_items, 0)  -- Create region for group's minimum position (start point) and maximum end point
     increment = increment + 1  
   end
 end
