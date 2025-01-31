@@ -20,7 +20,7 @@ If you need support please send me an email, which you can find above.
 
 --[[
  * Changelog:
- * v1.0 (2016-01-29)
+ * v1.0 (2025-01-31)
   + Initial Release
 --]]
 
