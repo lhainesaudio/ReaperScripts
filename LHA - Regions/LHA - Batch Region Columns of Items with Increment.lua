@@ -1,5 +1,5 @@
 --[[
- * ReaScript Name: Batch Region Layered Items
+ * ReaScript Name: Batch Region Columns of Items With Increment
  * Description: Creates regions 
  * Author: Lewis Haines Audio
  * Website: https://www.lewishainesaudio.co.uk
@@ -11,16 +11,14 @@
  
  CREDITS
  * Special Thanks To: X-Raym
- * X-Raym Website: https://www.extremraym.com/
- * X-Raym Repo URL: https://github.com/X-Raym/REAPER-ReaScripts
-
-Thanks so much for using my script! 
-If you need support please send me an email, which you can find above.
+ * X-Raym Donation Link: https://www.extremraym.com/en/donation/
+ * X-Raym Premium Scripts: https://www.extremraym.com/en/reascripts-premium/
+ * X-Raym Github Repo: https://github.com/X-Raym/REAPER-ReaScripts
 --]]
 
 --[[
  * Changelog:
- * v1.0 (2016-01-29)
+ * v1.0 (2025-02-03)
   + Initial Release
 --]]
 
