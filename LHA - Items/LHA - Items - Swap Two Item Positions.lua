@@ -22,12 +22,12 @@ function msg(m)
 end
 
 function getItemPositions(item)
-  
+
   local itemPos = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
   local itemLen = reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
   local itemTrack = reaper.GetMediaItemTrack(item)
-  
-  if itemPos and itemLen then
+
+  if itemPos and itemLen and itemTrack then
     return itemPos, itemLen, itemTrack
   end
 
