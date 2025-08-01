@@ -7,9 +7,9 @@ If you have any suggestions find me at the social links below. I'll add it to my
 
 SOCIAL LINKS
 
-[Bluesky](https://bsky.app/profile/lhainesaudio.bsky.social)
-[LinkedIn](https://www.linkedin.com/in/lewis-haines-audio/)
-[Website](https://lewishainesaudio.co.uk/)
-[Airwiggles](https://www.airwiggles.com/u/dca17ebb)
+[Bluesky](https://bsky.app/profile/lhainesaudio.bsky.social)  
+[LinkedIn](https://www.linkedin.com/in/lewis-haines-audio/)  
+[Website](https://lewishainesaudio.co.uk/)  
+[Airwiggles](https://www.airwiggles.com/u/dca17ebb)  
 
 ]]--
