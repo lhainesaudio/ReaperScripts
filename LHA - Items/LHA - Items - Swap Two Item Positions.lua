@@ -22,12 +22,12 @@ function msg(m)
 end
 
 function getItemPositions(item)
-
+  
   local itemPos = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
   local itemLen = reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
   local itemTrack = reaper.GetMediaItemTrack(item)
-
-  if itemPos and itemLen and itemTrack then
+  
+  if itemPos and itemLen then
     return itemPos, itemLen, itemTrack
   end
 
@@ -36,7 +36,7 @@ end
 function setItemPositions(item, pos, len, track)
 
   reaper.SetMediaItemInfo_Value(item, "D_POSITION", pos, 1)
-  reaper.SetMediaItemInfo_Value(item, "D_LENGTH", len, 1)
+
   reaper.MoveMediaItemToTrack(item, track, 1)
 
 end
@@ -45,8 +45,8 @@ function main()
 
   item1Pos, item1Len, item1Track = getItemPositions(item1)
   item2Pos, item2Len, item2Track = getItemPositions(item2)
-  setItemPositions(item1, item2Pos, item2Len, item2Track)
-  setItemPositions(item2, item1Pos, item1Len, item1Track)
+  setItemPositions(item1, item2Pos, item1Len, item2Track)
+  setItemPositions(item2, item1Pos, item2Len, item1Track)
   
 end
 
